@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 7%, 11%);
+}
+#calculator {
+    margin: 0 auto;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px 4px hsl(24, 85%, 44%);
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    background-color: #13110f;
+   
+    
+}
+
+.first-operator > #backspace-icon {
+    cursor: pointer;
+    
+  
+    
+    
+}
+
+.display {
+    border: 1px solid black;
+    height: 25%;
+    margin: 15px;
+    border-radius: 10px;
+    background-color: #251d17;
+
+}
+.first-operator {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    
+}
+.operator {
+    margin: 15px;
+} 
+button {
+    width: 68px;
+    height: 60px;
+    background-color: rgb(37, 29, 23);
+    color: rgb(218, 87, 0);
+    font-size: larger;
+    border-radius: 10px;
+    font-weight: bold;
+    border-color: rgba(37, 29, 23, 0.2);
+    
+
+}
+#last-item {
+    width: 234px;
+}
+
+button.special {
+   border: 1px solid rgba(218, 87, 0, 0.5);
+}
